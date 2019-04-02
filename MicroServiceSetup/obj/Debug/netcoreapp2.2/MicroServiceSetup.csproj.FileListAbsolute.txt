@@ -1,0 +1,14 @@
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/bin/Debug/netcoreapp2.2/MicroServiceSetup.deps.json
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/bin/Debug/netcoreapp2.2/MicroServiceSetup.runtimeconfig.json
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/bin/Debug/netcoreapp2.2/MicroServiceSetup.runtimeconfig.dev.json
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/bin/Debug/netcoreapp2.2/MicroServiceSetup.dll
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/bin/Debug/netcoreapp2.2/MicroServiceSetup.pdb
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.csprojAssemblyReference.cache
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.csproj.CoreCompileInputs.cache
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.RazorAssemblyInfo.cache
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.RazorAssemblyInfo.cs
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.AssemblyInfoInputs.cache
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.AssemblyInfo.cs
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.RazorTargetAssemblyInfo.cache
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.dll
+/Users/mr.robot/Desktop/MicroServiceSetup/MicroServiceSetup/obj/Debug/netcoreapp2.2/MicroServiceSetup.pdb
