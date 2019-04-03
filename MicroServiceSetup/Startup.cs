@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MicroServiceSetup.Models;
+using MicroServiceSetup.Services;
 
 namespace MicroServiceSetup
 {
@@ -29,6 +30,9 @@ namespace MicroServiceSetup
         {
             services.AddDbContextPool<TodoContext>(opt =>
                 opt.UseMySQL(Configuration.GetConnectionString("DefaultConnection"))); //Entity
+            
+            services.AddScoped<ITodoService, TodoService>(); // D.I of service
+//            services.AddSingleton<IPaymentProcessingService, PaymentProcessingService>();
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

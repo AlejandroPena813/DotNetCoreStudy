@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MicroServiceSetup.Models;
+using MicroServiceSetup.Services;
 
 namespace MicroServiceSetup.Controllers
 {
@@ -12,17 +13,29 @@ namespace MicroServiceSetup.Controllers
     public class ValuesController : ControllerBase
     {
         private readonly TodoContext _context; //Entity Context
+        private readonly ITodoService _todoService;
 
-        public ValuesController(TodoContext context)
+        public ValuesController(TodoContext context, ITodoService todoService)
         {
             _context = context;
+            _todoService = todoService;
         }
 
         [HttpPost]
         public async Task<ActionResult<Todo>> PostTodoItem(Todo item)
         {
-            _context.ToDoItems.Add(item);
-            _context.SaveChanges();
+            try
+            {
+                _context.ToDoItems.Add(item);
+                _context.SaveChanges();
+
+                _todoService.GenMessage(item);
+            }
+            catch (Exception e)
+            {
+                //normally a log
+                Console.WriteLine(e);
+            }
         
             return Ok();
 //            return CreatedAtAction(nameof(GetToDoItem), new {id = item.Id}, item);
